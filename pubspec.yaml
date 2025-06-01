@@ -1,0 +1,45 @@
+<<<<<<< HEAD
+name: flutter001
+description: A new Flutter project
+publish_to: 'none'
+
+=======
+name: alarm_clock_app
+description: A Flutter alarm clock application
+publish_to: 'none'
+>>>>>>> aefa525c0b6974cc0ce777766e88658ca0b53f8b
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  android_alarm_manager_plus: ^3.0.1
+  just_audio: ^0.9.34
+  shared_preferences: ^2.2.0
+  intl: ^0.18.1
+  flutter_local_notifications: ^15.1.0+1
+
+<<<<<<< HEAD
+  cupertino_icons: ^1.0.2
+
+=======
+>>>>>>> aefa525c0b6974cc0ce777766e88658ca0b53f8b
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+<<<<<<< HEAD
+  
+  assets:
+=======
+
+  assets:
+    - assets/
+>>>>>>> aefa525c0b6974cc0ce777766e88658ca0b53f8b
+    - assets/alarm_sound.mp3
